@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+.menu__item{
+    flex-grow: 1;
+    text-align: center;
+}
+.menu__link{
+
+    background-color: violet;
+    display: block;
+}
+
+.menu__link{
+    transition: background-color .4s;
+}
+.menu__link:hover{
+    background-color: #c3c3c3;
+}
+
+.submenu{
+    display: none;
+    background-color: teal;
+}
+
+.menu li:hover ul{
+    display: block;
+    position: absolute;
+}
